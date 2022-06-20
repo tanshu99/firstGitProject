@@ -1,0 +1,130 @@
+    1  ls
+    2  rm -rf terraform_0.15.3_linux_amd64.zip 
+    3  sudo systemctl start grafana-server
+    4  prometheus 
+    5  prometheus --config.file=/opt/prometheus-2.27/prometheus.yml
+    6  sudo apt remove docker-compose 
+    7  sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    8  sudo chmod +x /usr/local/bin/docker-compose
+    9  docker-compose --version
+   10  clear
+   11  docker --version
+   12  sudo systemctl status grafana-server
+   13  sudo systemctl enable grafana-server
+   14  cd /etc/systemd/system/
+   15  ks
+   16  ls
+   17  vi tomcat.service 
+   18  sudo vi prometheus.service
+   19  cd ~
+   20  sudo vi prometheus
+   21  cd /etc/systemd/system/
+   22  sudo vi prometheus.service
+   23  sudo systemctl status prometheus
+   24  sudo vi prometheus.service
+   25  sudo systemctl status prometheus
+   26  sudo systemctl start prometheus
+   27  sudo systemctl enable prometheus
+   28  cd /etc/systemd/system
+   29  ls
+   30  vi tomcat.service 
+   31  unzip ~/Downloafs/sample-project.zip
+   32  unzip ~/Downloads/sample-project.zip
+   33  cat fonts
+   34  pwd
+   35  ls
+   36  mkdir git-Project
+   37  cd git-Project
+   38  mv sample-project git-Project
+   39  cd ..
+   40  mv sample-project git-Project
+   41  ls
+   42  cd git-Project
+   43  ls
+   44  pwd
+   45  cd sample-project/
+   46  ls
+   47  cat fonts
+   48  cat index.html
+   49  git status
+   50  cd ..
+   51  ls
+   52  unzip ~/Downloads/sample-project.zip
+   53  git init
+   54  clear
+   55  mkdir git-project
+   56  cd git-project
+   57  git init
+   58  unzip ~/Downloads/sample-project.zip
+   59  ls
+   60  git status
+   61  git add sample-project
+   62  git status
+   63  git commit -m "My first Commit"
+   64  git config --global--list
+   65  git config --global --list
+   66  git status
+   67  pwd
+   68  ls
+   69  git log --oneline
+   70  git commit -m "My first commit"
+   71  git config --global user.email "
+   72  cd ..
+   73  clear
+   74  git version
+   75  git config --gloabal user.name "Tanshu"
+   76  git config --global user.name "Tanshu"
+   77  git config --global user.email "Tanshu@gmail.com"
+   78  git config --global --list
+   79  ls
+   80  pwd
+   81  cd git-Project/
+   82  pwd
+   83  ls
+   84  git status
+   85  cd ..
+   86  cd git-project/
+   87  ls
+   88  git status
+   89  git commit -m "This is my first commit"
+   90  git log --oneline
+   91  git
+   92  History
+   93  git config --global --list
+   94  mkdir MyfirstProject
+   95  cd MyfirsrProject/
+   96  cd MyfirstProject/
+   97  ls
+   98  unzip ~/Downloads/sample-project
+   99  ls
+  100  git branch newfeature master
+  101  git branch
+  102  git init
+  103  git branch
+  104  git status
+  105  git add sample-project
+  106  git status
+  107  git commit -m "This is my first commit for my project"
+  108  git branch
+  109  git branch newFeature master
+  110  git branch
+  111  git checkout newFeature
+  112  ls
+  113  cat index.html
+  114  cd sample-project
+  115  cat index.html
+  116  cd ..
+  117  git branch
+  118  vim Textfile.txt
+  119  git status
+  120  git add Textfile.txt
+  121  git status
+  122  git commit -m "commit for my new branch.Adding new feature"
+  123  git log
+  124  git checkout master
+  125  git merge newFeature
+  126  git log --oneline
+  127  git remote add origin https://github.com/tanshu99/firstGitProject.git
+  128  git remote -v
+  129  git push origin master
+  130  history >> MyFirstProject
